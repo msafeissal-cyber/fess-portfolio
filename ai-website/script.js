@@ -13,3 +13,4 @@ async function sendMessage() {
   document.getElementById("response").innerText =
     data.choices[0].message.content;
 }
+document.getElementById("response").innerText = data.content;
