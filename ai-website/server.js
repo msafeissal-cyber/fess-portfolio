@@ -1,9 +1,11 @@
+import dotenv from "dotenv";
+dotenv.config();
 import express from "express";
 import fetch from "node-fetch";
 import dotenv from "dotenv";
 
 dotenv.config();
-
+npm install dotenv
 const app = express();
 app.use(express.json());
 
